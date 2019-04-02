@@ -3,11 +3,37 @@
 	Theme URI: https://github.com/exchange-church/elementor-hello-child
 	Description: A child theme for Exchange Church based on the Hello Elementor theme.
 	Author: Doug Penny
-  Author URI: https://exchangenc.org
-  Template: elementor-hello-theme
-	Version: 1.0.0
+	Author URI: https://exchangenc.org
+	Template: elementor-hello-theme
+	Version: 1.0.2
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
 	Tags: flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
+
+/* Main header without sticky enabled; background is transparent and the
+Exchange logo is solid white.
+*/
+#ec-logo .elementor-image img {
+	content: url("/wp-content/uploads/2019/03/logo_white_small-150x150.png");
+	width: 68%;
+	transition: all 0.5s ease-in-out;
+}
+
+/* Main header with sticky enabled; background becomes opaque,
+height shrinks, and smaller, color Exchange logo is used.
+*/
+.ec-main-header.elementor-sticky--effects {
+	background-color: #e2dede !important;
+}
+
+.elementor-sticky--effects #ec-logo .elementor-image img {
+	content: url("/wp-content/uploads/2019/04/color_logo_mark-150x150.png") !important;
+	width: 50%;
+	transition: all 0.5s ease-in-out;
+}
+
+.elementor-sticky--effects .ec-main-nav.elementor-widget-nav-menu a.elementor-item.has-submenu {
+	color: #464647;
+}
