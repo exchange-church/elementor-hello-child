@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: elementor-hello-theme
-	Version: 1.0.2
+	Version: 1.0.3
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -18,7 +18,7 @@
 	Exchange logo is solid white.
 	*/
 	#ec-logo .elementor-image img {
-		content: url("/wp-content/uploads/2019/03/logo_white_small-150x150.png");
+		content: url("/media/logo_white_small-150x150.png");
 		width: 68%;
 		transition: all 0.5s ease-in-out;
 	}
@@ -31,7 +31,7 @@
 	}
 
 	.elementor-sticky--effects #ec-logo .elementor-image img {
-		content: url("/wp-content/uploads/2019/04/color_logo_mark-150x150.png") !important;
+		content: url("/media/color_logo_mark-150x150.png") !important;
 		width: 50%;
 		transition: all 0.5s ease-in-out;
 	}
@@ -56,7 +56,7 @@
 	}
 
 	.ec-main-header #ec-logo .elementor-image img {
-		content: url("/wp-content/uploads/2019/04/color_logo_horizontal.png") !important;
+		content: url("/media/color_logo_horizontal.png") !important;
 		width: 264px !important;
 	}
 
