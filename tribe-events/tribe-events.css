@@ -11,6 +11,23 @@ body .elementor {
     font-family: "Lato", Sans-serif;
 }
 
+#tribe-bar-collapse-toggle {
+    background-color: #f5f5f5;
+}
+
+.tribe-events-list-separator-month {
+    margin: 1em auto 0em auto;
+}
+
+.tribe-events-list-separator-month+.type-tribe_events.tribe-events-first {
+    padding: 0px 24px 0px 24px;
+    margin: 0 0 2rem 0;
+}
+
+.tribe-events-list .type-tribe_events {
+    padding: 0px 24px 0px 24px;
+}
+
 h3.tribe-events-list-event-title {
     font-size: 22px;
 }
@@ -21,4 +38,25 @@ h3.tribe-events-list-event-title {
 
 .events-gridview .tribe-events-tooltip {
 	display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .tribe-events-loop .tribe-events-event-meta {
+        background: none;
+        border: none;
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .tribe-events-list .time-details, .tribe-events-list .tribe-event-schedule-details {
+        padding: 0px;
+    }
+
+    .tribe-events-list .tribe-events-venue-details {
+        display: none;
+    }
+
+    .tribe-events-sub-nav li a {
+        background: none;
+    }
 }
