@@ -59,10 +59,15 @@
 		content: url("/media/color_logo_horizontal.png") !important;
 		width: 264px !important;
 	}
+	.elementor-25 .elementor-view-default .elementor-icon {
+		color: #13789c;
+		border-color: #13789c;
+		font-size: 42px;
+		}
 
-	.ec-main-header .elementor-nav-menu--dropdown {
+	/* .ec-main-header .elementor-nav-menu--dropdown {
 		background-color: #13789c !important;
-	}
+	} */
 
 	.ec-main-header .elementor-item-anchor.has-submenu {
 		text-transform: uppercase;
