@@ -27,17 +27,17 @@
 	height shrinks, and smaller, color Exchange logo is used.
 	*/
 	.ec-main-header.elementor-sticky--effects {
-		background-color: #f5f5f5 !important;
+		background-color: rgba(245, 245, 245, 0.55) !important
 	}
 
-	.elementor-sticky--effects #ec-logo .elementor-image img {
+	.ec-main-header.elementor-sticky--effects #ec-logo .elementor-image img {
 		content: url("/media/color_logo_mark-150x150.png") !important;
 		width: 50%;
 		transition: all 0.5s ease-in-out;
 	}
 
-	.elementor-sticky--effects .ec-main-nav.elementor-widget-nav-menu a.elementor-item.has-submenu {
-		color: #464647;
+	.ec-main-header.elementor-sticky--effects .elementor-view-default .elementor-icon {
+		color: #13789c;
 	}
 }
 
@@ -59,6 +59,7 @@
 		content: url("/media/color_logo_horizontal.png") !important;
 		width: 264px !important;
 	}
+
 	.elementor-25 .elementor-view-default .elementor-icon {
 		color: #13789c;
 		border-color: #13789c;
