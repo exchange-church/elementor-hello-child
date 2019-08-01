@@ -12,6 +12,12 @@
 	Tags: flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 
+
+a {
+	color: #0f6d8e;
+    /* color: #104660; */
+}
+
 /* This section only applies to desktop or laeger devices. */
 @media (min-width:768px) {
 	/* Main header without sticky enabled; background is transparent and the
