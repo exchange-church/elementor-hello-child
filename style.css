@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.2.1
+	Version: 1.2.2
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -15,7 +15,15 @@
 
 a {
 	color: #0f6d8e;
-    /* color: #104660; */
+}
+
+a:hover {
+    color: #104660;
+}
+
+.elementor-tab-content a {
+	color: #fff;
+	text-decoration: underline;
 }
 
 /* This section only applies to desktop or laeger devices. */
