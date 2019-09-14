@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.2.2
+	Version: 1.2.3
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -26,6 +26,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+li .menu-item.menu-item-has-children {
+	font-size: 36px;
+}
+
 /* This section only applies to desktop or laeger devices. */
 @media (min-width:768px) {
 	/* Main header without sticky enabled; background is transparent and the
@@ -33,15 +37,15 @@ a:hover {
 	*/
 	#ec-logo .elementor-image img {
 		content: url("/media/logo_white_small-150x150.png");
-		width: 68%;
+		width: 50%;
 		transition: all 0.5s ease-in-out;
 	}
 
-	/* Main header with sticky enabled; background becomes opaque,
-	height shrinks, and smaller, color Exchange logo is used.
+	/* Main header with sticky enabled; background becomes opaque
+	and color Exchange logo is used.
 	*/
 	.ec-main-header.elementor-sticky--effects {
-		background-color: rgba(245, 245, 245, 0.55) !important
+		background-color: #fff !important;
 	}
 
 	.ec-main-header.elementor-sticky--effects #ec-logo .elementor-image img {
@@ -50,8 +54,8 @@ a:hover {
 		transition: all 0.5s ease-in-out;
 	}
 
-	.ec-main-header.elementor-sticky--effects .elementor-view-default .elementor-icon {
-		color: #13789c;
+	.ec-main-header.elementor-sticky--effects .elementor-icon i:before, .elementor-icon svg:before {
+		color: #104660;
 	}
 }
 
