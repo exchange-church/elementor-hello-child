@@ -22,7 +22,7 @@ a:hover {
 }
 
 .elementor-tab-content a {
-	color: #fff;
+	color: #f5f5f5;
 	text-decoration: underline;
 }
 
@@ -45,7 +45,7 @@ li.menu-item.menu-item-has-children {
 	and color Exchange logo is used.
 	*/
 	.ec-main-header.elementor-sticky--effects {
-		background-color: #fff !important;
+		background-color: #f5f5f5 !important;
 	}
 
 	.ec-main-header.elementor-sticky--effects #ec-logo .elementor-image img {
@@ -61,9 +61,9 @@ li.menu-item.menu-item-has-children {
 
 /* This section applies to tablets and smaller devices. */
 @media (max-width: 1024px) {
-	.elementor-sticky--effects #ec-logo .elementor-image img {
+	/* .elementor-sticky--effects #ec-logo .elementor-image img {
 		width: 46%;
-	}
+	} */
 }
 
 /* This section applies to smaller, mobile devices. */
