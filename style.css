@@ -49,7 +49,7 @@ li.menu-item.menu-item-has-children {
 	}
 
 	.ec-main-header.elementor-sticky--effects #ec-logo .elementor-image img {
-		content: url("/media/color_logo_mark-150x150.png") !important;
+		content: url("/media/exch_logo_only-blue-150x150.png") !important;
 		width: 50%;
 		transition: all 0.5s ease-in-out;
 	}
@@ -74,7 +74,7 @@ li.menu-item.menu-item-has-children {
 	}
 
 	.ec-main-header #ec-logo .elementor-image img {
-		content: url("/media/color_logo_horizontal.png") !important;
+		content: url("/media/exch_logo_only-blue.png") !important;
 		width: 264px !important;
 	}
 
