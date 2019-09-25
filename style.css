@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.2.5
+	Version: 1.2.6
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -74,7 +74,7 @@ li.menu-item.menu-item-has-children {
 	}
 
 	.ec-main-header #ec-logo .elementor-image img {
-		content: url("/media/exch_logo_only-blue.png") !important;
+		content: url("/media/exch_logo_only-blue-150x150.png") !important;
 		width: 264px !important;
 	}
 
