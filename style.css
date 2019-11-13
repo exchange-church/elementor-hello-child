@@ -26,7 +26,14 @@ a:hover {
 	text-decoration: underline;
 }
 
-li.menu-item.menu-item-has-children {
+.alignleft img {
+	margin-right: 28px;
+}
+
+.alignleft img {
+	margin-left: 28px;
+}
+nu-item.menu-item-has-children {
 	font-size: 36px;
 }
 
@@ -81,16 +88,6 @@ li.menu-item.menu-item-has-children {
 	.ec-main-header .elementor-icon i:before, .elementor-icon svg:before {
 		color: #13789c;
 	}
-
-	/* .elementor-25 .elementor-view-default .elementor-icon {
-		color: #13789c;
-		border-color: #13789c;
-		font-size: 42px;
-		} */
-
-	/* .ec-main-header .elementor-nav-menu--dropdown {
-		background-color: #13789c !important;
-	} */
 
 	.ec-main-header .elementor-item-anchor.has-submenu {
 		text-transform: uppercase;
