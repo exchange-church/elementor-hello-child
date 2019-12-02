@@ -37,50 +37,41 @@ nu-item.menu-item-has-children {
 	font-size: 36px;
 }
 
-/* Single sermon page */
+/* Single sermon page. Some of these are marked !important to
+override the Sermon Manager Pro styling. */
 .smpro-single .smpro-image__background {
 	margin-top: -109px;
 	background-size: contain;
 	background-position: center center;
 }
 
-.plyr {
-	max-width: 80%;
+.smpro-single .smpro-title {
+	margin: 0 42px 0 42px					!important;
+	font-family: "Maven Pro", Sans-serif	!important;
+}
+
+.smpro-single .smpro-single__meta {
+	margin: 0 42px 0 42px					!important;
+	font-family: "Lato", Sans-serif			!important;
+}
+
+.smpro-single .smpro-description {
+	margin: 36px 42px 0 42px				!important;
+	font-family: "Lato", Sans-serif			!important;
+}
+
+.smpro-single .smpro-single__footer {
+	margin: 24px 42px 24px 42px				!important;
+	font-family: "Lato", Sans-serif			!important;
+}
+
+.mejs-container {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
-	display: none;
-}
-
-[type=button], [type=submit], button {
-	color: #13789c;
-	border: 1px solid #13789c;
-}
-
-.plyr--full-ui input[type=range] {
-	color: #c85936;
-}
-
-.smpro-single .smpro-title {
-	margin: 0 42px 0 42px;
-	font-family: "Maven Pro", Sans-serif;
-}
-
-.smpro-single .smpro-single__meta {
-	margin: 0 42px 0 42px;
-	font-family: "Lato", Sans-serif;
-}
-
-.smpro-single .smpro-description {
-	margin: 36px 42px 0 42px;
-	font-family: "Lato", Sans-serif;
-}
-
-.smpro-single .smpro-single__footer {
-	margin: 24px 42px 24px 42px;
-	font-family: "Lato", Sans-serif;
+[type=button]:hover, [type=submit]:hover, button:hover {
+	background-color: #13789c;
 }
 
 /* This section only applies to desktop or laeger devices. */
