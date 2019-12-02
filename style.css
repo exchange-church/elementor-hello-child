@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.2.7
+	Version: 1.2.8
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -35,6 +35,52 @@ a:hover {
 }
 nu-item.menu-item-has-children {
 	font-size: 36px;
+}
+
+/* Single sermon page */
+.smpro-single .smpro-image__background {
+	margin-top: -109px;
+	background-size: contain;
+	background-position: center center;
+}
+
+.plyr {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true] {
+	display: none;
+}
+
+[type=button], [type=submit], button {
+	color: #13789c;
+	border: 1px solid #13789c;
+}
+
+.plyr--full-ui input[type=range] {
+	color: #c85936;
+}
+
+.smpro-single .smpro-title {
+	margin: 0 42px 0 42px;
+	font-family: "Maven Pro", Sans-serif;
+}
+
+.smpro-single .smpro-single__meta {
+	margin: 0 42px 0 42px;
+	font-family: "Lato", Sans-serif;
+}
+
+.smpro-single .smpro-description {
+	margin: 36px 42px 0 42px;
+	font-family: "Lato", Sans-serif;
+}
+
+.smpro-single .smpro-single__footer {
+	margin: 24px 42px 24px 42px;
+	font-family: "Lato", Sans-serif;
 }
 
 /* This section only applies to desktop or laeger devices. */
@@ -95,5 +141,10 @@ nu-item.menu-item-has-children {
 
 	.ec-main-header .elementor-nav-menu .sub-arrow {
 		display: none;
+	}
+
+	/* Single sermon page on mobile */
+	.smpro-single .smpro-image__background {
+		margin-top: 0px;
 	}
 }
