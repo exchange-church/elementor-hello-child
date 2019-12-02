@@ -22,7 +22,7 @@ a:hover {
 }
 
 .elementor a.rtBibleRef {
-	text-decoration: dashed;
+	text-decoration: underline;
 }
 
 .elementor-tab-content a {
