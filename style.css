@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.2.9
+	Version: 1.3
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -39,30 +39,33 @@ nu-item.menu-item-has-children {
 
 /* Single sermon page. Some of these are marked !important to
 override the Sermon Manager Pro styling. */
-.smpro-single .smpro-image__background {
+.smpro-single .smpro-image {
 	margin-top: -109px;
-	background-size: contain;
-	background-position: center center;
+}
+
+.smpro-single .smpro-image__background {
+	background-size: contain !important;
+	background-position: center center !important;
 }
 
 .smpro-single .smpro-title {
-	margin: 0 42px 0 42px					!important;
-	font-family: "Maven Pro", Sans-serif	!important;
+	margin: 0 42px 0 42px !important;
+	font-family: "Maven Pro", Sans-serif !important;
 }
 
 .smpro-single .smpro-single__meta {
-	margin: 0 42px 0 42px					!important;
-	font-family: "Lato", Sans-serif			!important;
+	margin: 0 42px 0 42px !important;
+	font-family: "Lato", Sans-serif !important;
 }
 
 .smpro-single .smpro-description {
-	margin: 36px 42px 0 42px				!important;
-	font-family: "Lato", Sans-serif			!important;
+	margin: 36px 42px 0 42px !important;
+	font-family: "Lato", Sans-serif !important;
 }
 
 .smpro-single .smpro-single__footer {
-	margin: 24px 42px 24px 42px				!important;
-	font-family: "Lato", Sans-serif			!important;
+	margin: 24px 42px 24px 42px !important;
+	font-family: "Lato", Sans-serif !important;
 }
 
 .mejs-container {
@@ -135,7 +138,8 @@ override the Sermon Manager Pro styling. */
 	}
 
 	/* Single sermon page on mobile */
-	.smpro-single .smpro-image__background {
+	.smpro-single .smpro-image {
 		margin-top: 0px;
+		margin-bottom: 0px !important;
 	}
 }
