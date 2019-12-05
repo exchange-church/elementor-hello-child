@@ -110,13 +110,6 @@ override the Sermon Manager Pro styling. */
 	}
 }
 
-/* This section applies to tablets and smaller devices. */
-@media (max-width: 1024px) {
-	/* .elementor-sticky--effects #ec-logo .elementor-image img {
-		width: 46%;
-	} */
-}
-
 /* This section applies to smaller, mobile devices. */
 @media (max-width: 767px) {
 	.ec-main-header {
@@ -126,7 +119,6 @@ override the Sermon Manager Pro styling. */
 
 	.ec-main-header #ec-logo .elementor-image img {
 		content: url("/media/exch_logo_only-blue-150x150.png") !important;
-		width: 264px !important;
 	}
 
 	.ec-main-header .elementor-icon i:before, .elementor-icon svg:before {
