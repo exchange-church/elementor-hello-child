@@ -17,4 +17,10 @@ function load_dashicons_front_end() {
 add_action( 'wp_enqueue_scripts', 'child_theme_styles' );
 add_action( 'wp_enqueue_scripts', 'load_dashicons_front_end' );
 
+function set_viewport_content_header( $content ) {
+    $viewport_content = 'viewport-fit=cover';
+    return $viewport_content;
+}
+
+add_filter( 'hello_elementor_viewport_content', 'set_viewport_content_header' );
 add_filter( 'hello_elementor_add_woocommerce_support', '__return_false' );
