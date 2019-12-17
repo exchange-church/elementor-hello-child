@@ -40,7 +40,7 @@ add_filter( 'hello_elementor_add_woocommerce_support', '__return_false' );
 function ecp_separate_gmaps_api_key_for_geocoding( $api_url ) {
     $api_keys = parse_ini_file( 'api_keys.ini' );
     $js_api_key = tribe_get_option( 'google_maps_js_api_key' );
-    $api_url = str_replace( 'key=' . $js_api_key, 'key=' . $api_key['geocode_key'], $api_url );
+    $api_url = str_replace( 'key=' . $js_api_key, 'key=' . $api_keys['geocode_key'], $api_url );
     // esc_url() will break it so esc_url_raw() or don't escape at all
     return esc_url_raw( $api_url );
 }
