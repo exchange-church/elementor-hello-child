@@ -87,7 +87,7 @@ override the Sermon Manager Pro styling. */
 	Exchange logo is solid white.
 	*/
 	#ec-logo .elementor-image img {
-		content: url("/media/logo_white_small-150x150.png");
+		content: url("/wp-content/uploads/logo_white_small-150x150.png");
 		width: 50%;
 		transition: all 0.5s ease-in-out;
 	}
@@ -100,7 +100,7 @@ override the Sermon Manager Pro styling. */
 	}
 
 	.ec-main-header.elementor-sticky--effects #ec-logo .elementor-image img {
-		content: url("/media/exch_logo_only-blue-150x150.png") !important;
+		content: url("/wp-content/uploads/exch_logo_only-blue-150x150.png") !important;
 		width: 50%;
 		transition: all 0.5s ease-in-out;
 	}
@@ -118,7 +118,7 @@ override the Sermon Manager Pro styling. */
 	}
 
 	.ec-main-header #ec-logo .elementor-image img {
-		content: url("/media/exch_logo_only-blue-150x150.png") !important;
+		content: url("/wp-content/uploads/exch_logo_only-blue-150x150.png") !important;
 	}
 
 	.ec-main-header .elementor-icon i:before, .elementor-icon svg:before {
