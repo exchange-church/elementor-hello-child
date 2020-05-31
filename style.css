@@ -34,7 +34,7 @@ a.elementor-item.has-submenu {
 	text-transform: uppercase;
 }
 
-a.elementor-sub-item {
+li.menu-item a.elementor-sub-item {
 	font-size: 26px;
 }
 
