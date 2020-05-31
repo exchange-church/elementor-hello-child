@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.4.1
+	Version: 1.4.2
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -34,8 +34,8 @@ a.elementor-item.has-submenu {
 	text-transform: uppercase;
 }
 
-li.menu-item a.elementor-sub-item {
-	font-size: 26px;
+.elementor-nav-menu--dropdown li.menu-item a.elementor-sub-item {
+	font-size: 26px !important;
 }
 
 .alignleft img {
