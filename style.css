@@ -5,7 +5,7 @@
 	Author: Doug Penny
 	Author URI: https://exchangenc.org
 	Template: hello-theme
-	Version: 1.3.4
+	Version: 1.4
 	License: GNU General Public License v3 or later.
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 	Text Domain: exchange-elementor
@@ -30,6 +30,14 @@ a:hover {
 	text-decoration: underline;
 }
 
+a.elementor-item.has-submenu {
+	text-transform: uppercase;
+}
+
+a.elementor-sub-item {
+	font-size: 26px;
+}
+
 .alignleft img {
 	margin-right: 28px;
 }
@@ -37,6 +45,7 @@ a:hover {
 .alignleft img {
 	margin-left: 28px;
 }
+
 nu-item.menu-item-has-children {
 	font-size: 36px;
 }
@@ -81,7 +90,7 @@ override the Sermon Manager Pro styling. */
 	background-color: #13789c;
 }
 
-/* This section only applies to desktop or laeger devices. */
+/* This section only applies to desktop or larger devices. */
 @media (min-width:768px) {
 	/* Main header without sticky enabled; background is transparent and the
 	Exchange logo is solid white.
